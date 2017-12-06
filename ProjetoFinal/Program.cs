@@ -9,9 +9,7 @@ namespace ProjetoFinal
         {
             Posicao P;
 
-            P = new Posicao(0,0);
-
-            Console.WriteLine("Posicao: " + P);
+            Tabuleiro tab = new Tabuleiro(8, 8);
 
             Console.ReadLine();
 
