@@ -14,5 +14,10 @@
             this.cor = cor;
             this.quantMoves = 0;
         }
+
+        public void incrementarQuantMoves()
+        {
+            quantMoves++;
+        }
     }
 }
