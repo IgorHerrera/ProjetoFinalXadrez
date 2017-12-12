@@ -27,7 +27,7 @@ namespace ProjetoFinal
             }
             Console.WriteLine("  a b c d e f g h ");
         }
-            public static PosicaoXadrez lerPosicaoXadrez()
+        public static PosicaoXadrez lerPosicaoXadrez()
         {
             string s = Console.ReadLine();
             char coluna = s[0];
@@ -35,7 +35,6 @@ namespace ProjetoFinal
             return new PosicaoXadrez(coluna, linha);
         }
 
-        }
         public static void imprimirPeca(Peca peca)
         {
             if (peca.cor == Cor.Branca)
