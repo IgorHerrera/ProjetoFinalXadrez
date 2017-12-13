@@ -15,6 +15,11 @@
             this.quantMoves = 0;
         }
 
+        public void incrementarQuantMoves()
+        {
+            quantMoves++;
+        }
+
         public abstract bool[,] movesPossiveis();
 
     }
